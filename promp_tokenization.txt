@@ -1,0 +1,1 @@
+add tokenization opanAI print, chart, embedding openAI print, chart, visualization mechanizm openAI chart, add transformer chart, use pyplot and numpy to see visualization result, use python script, do not use unicorn server

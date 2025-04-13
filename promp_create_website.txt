@@ -1,0 +1,59 @@
+Create a web application using the latest node.js, SQLite database, express server, express-ejs-layouts, express-session
+
+There will be a login form on the welcome page
+Login form with white background
+Player can set the password visibility in the password field
+Above the login form, add an image that can be changed in folder to store images.
+Add a background image from the public directory to the login page,
+Add a footer to the login page with white text color and the following information: All rights reserved, current year
+
+On the login form, add a link to registration
+After clicking on the link, the player is redirected to the registration form.
+Registration formcontains the following fields: name, surname, date of birth, age,
+There is a save data button - the player is logged into the player panel
+There is a back button - the player is redirected to the login form
+
+After logging in, the following will appear:
+- side menu with two tabs: player, games
+After logging in, the player is redirected to the player panel
+
+In the player tab, a user panel with data such as:
+name, surname, date of birth, age and current server time
+Add an image to the player panel an image from the player's public folder, Image on the right side of the data
+The data is displayed in tables
+
+In the player panel there is a button to add documents
+After clicking the button, a popup with a form for documents appears
+It contains, Document number - 8 digits
+Document issue date - datapicker
+Document expiration date - datepicker
+Scan of the front of the document
+And an X icon closing the form and a close button
+The save document button saves the document data to the database
+The document data appears in the player profile tab in a separate panel below the player profile along with the added image
+The document card floats when hovered over
+The document image is placed in the document element on the page
+Add a button to remove added documents
+
+In the games tab, a button to add games
+Clicking the add game button will display a popup to add a game 
+with a form containing: game name, provider name, date added - datepicker,
+game category - drop-down list (available categories: new game, favorite, top, big wins, popular),
+Checkbox freespin, checkbox free games, Field to add a game icon
+button x closing the form
+button close and button save
+The add game button adds a new game to the database
+The game is displayed in the game panel, game data in the form of labels, after adding the game, the game panel page is displayed
+
+Additionally, there will be a logout button in the side menu to log the player out of the application
+After the player logs out of the application, a message will appear that the player has been successfully logged out
+
+Use the material design template
+The page should be responsive on mobile devices
+Use the session mechanism to authenticate the login
+Create a test user and the user can log in to the application, user details are in the database
+
+Install swagger,
+Swagger should be attached to API endpoint, it should be available on port 8080
+Add validation to the API method in the request, in case of invalid / valid data return 200 with information that the data is invalid (use success, message field instead res.render)
+Create readme file

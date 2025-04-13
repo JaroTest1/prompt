@@ -1,0 +1,15 @@
+Summarize for me what the application is for
+Where can I find API endpoints, and give me a list of them with explanations
+How to run applications @README.md 
+
+Install playwright latest version, install playwrright package, javascript language, browser only chrome latest
+Initialize playwright skip files example
+
+write API tests in playwright, for the post login method, tests should include test data in the form of a json file,recognize test data json file in tests,  apply good practices, tests should be simple
+run login tests 
+
+write API tests in playwright, for the delete method, tests should include test data in the form of a json file,recognize test data json file in tests,  apply good practices, tests should be simple, using headers
+run  this tests
+
+write API tests in playwright, for the delete method, tests should include test data in the form of a json file,recognize test data json file in tests,  apply good practices, tests should be simple, using headers 
+run  this tests

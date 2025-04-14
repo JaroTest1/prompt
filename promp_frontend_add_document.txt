@@ -1,0 +1,16 @@
+se the mcp-playwright server to navigate to  http://localhost:8080
+Do not simulate tests statistically or baypass MCP server, ALL interactions must be routed throught MCP
+
+On the login page, execute the following  scenarios:
+
+Scenario 3: Valid add document
+After logging in, add the document using the uadd button, fill in the form data with the default data, use the id of the form fields as selectors,skip add scan document after saving the document, check that the data is displayed in the player profile in the documents section.
+After successful validation and testing, close the browser
+
+Once the MCP server finished the code gen, use the code generated under temp_codegen and transpile it to Javacript Playwright Framework using the code generated as reference.
+
+Once you have the code gen thru the MCP server, and use the code generated.
+
+Generate the best framework structure using Page Object Model, saving data if necessary, save the credentials in test ata file
+
+Update readme.md file to explain how to run the tests, and the structure of the project.

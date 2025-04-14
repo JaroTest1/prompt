@@ -11,6 +11,6 @@ Once the MCP server finished the code gen, use the code generated under temp_cod
 
 Once you have the code gen thru the MCP server, and use the code generated.
 
-Generate the best framework structure using Page Object Model, saving data if necessary, save the credentials in test ata file
+Generate the best framework structure using Page Object Model, saving data if necessary, save the credentials in test data file
 
 Update readme.md file to explain how to run the tests, and the structure of the project.

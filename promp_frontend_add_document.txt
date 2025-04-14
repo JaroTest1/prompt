@@ -1,4 +1,4 @@
-se the mcp-playwright server to navigate to  http://localhost:8080
+Use the mcp-playwright server to navigate to  http://localhost:8080
 Do not simulate tests statistically or baypass MCP server, ALL interactions must be routed throught MCP
 
 On the login page, execute the following  scenarios:
